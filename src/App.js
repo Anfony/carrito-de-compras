@@ -35,7 +35,6 @@ class App extends Component {
       })
     })
   }
-
   mostrarCarro = () => {
     if(!this.state.carro.length) {
       return
@@ -58,6 +57,7 @@ class App extends Component {
             agregarAlCarro={this.agregarAlCarro}
             productos={this.state.productos}
           />
+          <button id='btnShowBessage'>Cerrar Evento</button>
         </Layout>
       </div>
     )

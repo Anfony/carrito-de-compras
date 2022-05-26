@@ -13,8 +13,13 @@ const styles = {
 
 class Button extends Component {
     render() {
+        // let btn = document.getElementById('btnShowBessage')
+        // btn.addEventListener('onclick', function(event){
+        // alert('Hola perros')
+        // });
+        // console.log("HOLA A TODOS",btn)
         return (
-            <button style={styles.button} {...this.props} />
+            <button id="btnShowBessage" style={styles.button} {...this.props} />
         )
     }
 }
